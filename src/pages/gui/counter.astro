@@ -1,0 +1,12 @@
+---
+import CounterComponent from '../../components/CounterComponent.svelte'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<BaseLayout title='Counter' />
+<body>
+  <CounterComponent client:load/>
+</body>
+</html>
